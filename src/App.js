@@ -3,22 +3,14 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <h1 data-ns-test="project-name"> Indian oil corporation commercial cylinder booking app</h1>
+     <p data-ns-test="project-description" >this app will allow consumers to book their cylinders in an efficient way.
+      both consumers as well distributors going to get help from this app.
+     </p>
+    
+    </>
+   
   );
 }
 
